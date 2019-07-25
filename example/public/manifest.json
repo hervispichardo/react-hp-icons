@@ -1,0 +1,8 @@
+{
+  "short_name": "react-hp-icons",
+  "name": "react-hp-icons",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
