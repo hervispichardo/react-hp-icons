@@ -10,20 +10,30 @@
 npm install --save react-hp-icons
 ```
 
-## Usage
+## Available icons
 
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-hp-icons'
-
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
+[
+  "ticket",
+  "filter",
+  "heart",
+  "heart_fill",
+  "message",
+  "home",
+  "search",
+  "calendar",
+  "menu",
+  "left",
+  "right",
+  "clock",
+  "location",
+  "user",
+  "close",
+  "phone",
+  "star",
+  "star_fill",
+  "badge"
+]
 ```
 
 ## License

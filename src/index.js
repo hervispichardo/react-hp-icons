@@ -5,7 +5,6 @@ import Icons from './icons'
 const Icon = ({ style, color, size, type, badge }) => {
   const styles = {
     svg: {
-      display: 'inline-block',
       verticalAlign: 'middle',
     },
     path: {
@@ -26,6 +25,7 @@ const Icon = ({ style, color, size, type, badge }) => {
       <svg
         style={{ ...styles.svg, ...style }}
         width={`${size}em`}
+        preserveAspectRatio="xMinYMin meet"
         height={`${size}em`}
         viewBox="0 0 1024 1024"
       >
@@ -56,7 +56,7 @@ Icon.propTypes = {
 
 Icon.defaultProps = {
   size: 1.8,
-  color: '#fff',
+  color: '#444',
   badge: '',
 };
 
